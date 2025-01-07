@@ -1,10 +1,13 @@
 import { TCard } from "@/types";
-import React from "react";
+import styles from "./CardFeatures.module.css";
 
-function CardFeatures({ header, img, description }: TCard) {
+function CardFeatures({ header, description, id }: TCard) {
 	return (
-		<div>
-			<img src={img} />
+		<div className={styles.container}>
+			<img
+				src={`/images/${id}.png`}
+				alt={header}
+			/>
 			<h3>{header}</h3>
 			<p>{description}</p>
 		</div>

@@ -1,0 +1,11 @@
+.container {
+    width: 335px;
+    height: 260px;
+    font-family: Vazir;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    margin-top: 70px;
+    color: #282828;
+}

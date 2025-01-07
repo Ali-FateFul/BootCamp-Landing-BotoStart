@@ -1,8 +1,8 @@
-import React from "react";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
 	return (
-		<div>
+		<div className={styles.container}>
 			<ul>
 				<li>معرفی</li>
 				<li>ویزگی ها</li>

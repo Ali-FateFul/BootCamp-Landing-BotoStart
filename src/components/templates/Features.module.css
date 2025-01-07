@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.container h2 {
+	font-family: Yekan;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 31px;
+	color: #282828;
+}
+.container span {
+	color: #8a6ef8;
+}
+.container div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}

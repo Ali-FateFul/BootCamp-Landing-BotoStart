@@ -1,0 +1,51 @@
+
+.container {
+
+	width: 393px;
+	height: 75px;
+	margin-top: 50px;
+	font-family: Yekan;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	text-align: right;
+	background-color: #fff;
+	box-shadow: 1px 0px 4px 0px #00000029;
+    position: sticky;
+	top: calc(100vh - 75px);
+}
+.container h4 {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.container h3 {
+	/* font-family: Yekan; */
+	font-weight: 600;
+	font-size: 12;
+	line-height: 18px;
+	color: #282828;
+}
+.high {
+	text-decoration: line-through;
+}
+.low {
+	font-weight: 700 !important;
+	color: #6308fd !important;
+}
+.paymentBtn {
+	font-family: Yekan;
+	width: 112px;
+	height: 36px;
+	border-radius: 10px;
+	padding: auto 38px;
+	border: none;
+	color: #fff;
+	background-color: #8a6ef8;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+}

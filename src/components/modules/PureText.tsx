@@ -1,8 +1,7 @@
-import React from "react";
-
+import styles from "./PureText.module.css";
 function PureText() {
 	return (
-		<div>
+		<div className={styles.container}>
 			<p>
 				وب سایت ما بصورت تخصصی برای آموزش مهارت های فرانت اند طراحی شده است تا
 				هر فردی ، از مبتدی تا علاقه مندان پیشرفته، بتوانند با استفاده از دوره

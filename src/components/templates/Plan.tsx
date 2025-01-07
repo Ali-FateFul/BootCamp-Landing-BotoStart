@@ -1,5 +1,5 @@
 import React from "react";
-import CardPlan from "./CardPlan";
+import CardPlan from "../modules/CardPlan";
 
 function Plan() {
 	return (
@@ -7,16 +7,15 @@ function Plan() {
 			<h2>
 				برنامه کلی <span> بوت کمپ </span> در یک نگاه
 			</h2>
-			{plan.map((item) => (
+			{/* {plan.map((item) => (
 				<CardPlan
 					key={item.id}
 					img={item.img}
 					header={item.header}
 					description={item.description}
 				/>
-			))}
+			))} */}
 			<img />
-			
 		</div>
 	);
 }
