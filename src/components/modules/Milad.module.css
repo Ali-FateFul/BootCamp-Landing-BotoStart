@@ -1,0 +1,26 @@
+.container {
+	width: 393px;
+	font-family: Yekan;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: right;
+}
+.subContainer {
+	color: #282828;
+}
+.subContainer h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 20px;
+}
+.subContainer p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 15px;
+}
+.paragraph {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: justify;
+}

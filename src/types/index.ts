@@ -1,4 +1,3 @@
-import { StaticImageData } from "next/image";
 
 export interface IFeatures {
 	id: number;
@@ -18,3 +17,9 @@ export type TSeasons = {
 	header: string;
 	fields: string[];
 };
+
+export interface IQuestion {
+	id?: number;
+	header: string;
+	description: string;
+}

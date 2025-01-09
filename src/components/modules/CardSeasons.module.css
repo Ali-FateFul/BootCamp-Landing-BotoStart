@@ -5,9 +5,6 @@
 	box-sizing: border-box;
 	margin-bottom: 20px;
 }
-.container details summary {
-	list-style-type: none;
-}
 .header {
 	display: flex;
 	justify-content: space-between;
