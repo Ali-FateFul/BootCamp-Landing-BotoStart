@@ -1,7 +1,8 @@
 import { TSeasons } from "@/types";
 
-export const seasonsData: TSeasons = [
+export const seasonsData: TSeasons[] = [
 	{
+		id: 1,
 		header: "HTML,CSS",
 		fields: [
 			"HTML",
@@ -13,14 +14,17 @@ export const seasonsData: TSeasons = [
 		],
 	},
 	{
+		id: 2,
 		header: "JavaScript",
 		fields: ["Variables", "Function", "ES6", "DOM & BOM", "OOP", "REGEX"],
 	},
 	{
+		id: 3,
 		header: "Git,Github",
 		fields: ["How its Working", "Commands", "features", "why we using git"],
 	},
 	{
+		id: 4,
 		header: "React",
 		fields: [
 			"JSX",
@@ -32,6 +36,7 @@ export const seasonsData: TSeasons = [
 		],
 	},
 	{
+		id: 5,
 		header: "NextJs",
 		fields: [
 			"SEO",

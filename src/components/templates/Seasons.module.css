@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+	margin: 70px 0;
+	text-align: right;
+	background-color: #8a6ef8;
+    width: 393px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.header {
+	display: flex;
+    align-items: center;
+    font-family: Vazir;
+    font-size: 18px;
+    line-height: 37px;
+    color: #fff;
+}
+.header img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+.items {
+    width: 100%;
+}
