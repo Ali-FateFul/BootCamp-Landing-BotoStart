@@ -16,5 +16,22 @@
 .container div {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-    gap: 15px;
+	gap: 15px;
+}
+@media (min-width: 1300px) {
+	.container {
+		margin-left: 400px;
+		justify-content: center;
+		align-items: center;
+		width: 916px;
+	}
+	.container h2 {
+		font-size: 28px;
+		line-height: 43px;
+	}
+	.container div {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 20px;
+	}
 }

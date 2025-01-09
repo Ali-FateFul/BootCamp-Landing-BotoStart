@@ -7,7 +7,7 @@ function Navbar() {
 			<div className={styles.container}>
 				<ul>
 					<li>معرفی</li>
-					<li>ویزگی ها</li>
+					<li>ویژگی ها</li>
 					<li>برای چه کسانی؟</li>
 					<li>سرفصل</li>
 					<li>تیم منتورینگ</li>

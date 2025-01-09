@@ -1,11 +1,40 @@
 .container {
-    width: 335px;
-    height: 260px;
-    font-family: Vazir;
-    text-align: justify;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 31px;
-    margin-top: 70px;
-    color: #282828;
+	width: 335px;
+	height: 260px;
+	font-family: Vazir;
+	text-align: justify;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 31px;
+	margin-top: 70px;
+	color: #282828;
+	margin-bottom: 70px;
+}
+.container h2 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 31px;
+	text-align: right;
+}
+.second {
+	display: none;
+}
+
+@media (min-width: 1300px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		width: 912px;
+		height: 301px;
+		margin-left: 400px;
+	}
+	.container h2 {
+		font-size: 28px;
+		line-height: 43px;
+	}
+	.second {
+		display: block;
+	}
 }

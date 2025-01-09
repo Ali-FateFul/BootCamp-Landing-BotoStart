@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import Plan from "./Plan";
 import PureText from "../modules/PureText";
 import Seasons from "./Seasons";
@@ -9,7 +8,6 @@ import Questions from "./Questions";
 function Content() {
 	return (
 		<>
-			<Navbar />
 			<PureText />
 			<Features />
 			<Plan />

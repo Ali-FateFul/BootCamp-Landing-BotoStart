@@ -24,6 +24,7 @@
 }
 @media (min-width: 1300px) {
 	.page {
+		direction: rtl;
 		width: 1300px;
 		padding:50px;
 		justify-content: right;
