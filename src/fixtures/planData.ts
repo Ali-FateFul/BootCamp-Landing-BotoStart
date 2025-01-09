@@ -1,37 +1,32 @@
 import { IFeatures } from "@/types";
 
-export const plan:IFeatures[] = [
+export const planData:IFeatures[] = [
     {
         id: 1,
-		img: ,
 		header: "HTML,CSS",
 		description:
 			"در سه هفته اول بوت کمپ مباحث html&css را پیش میبریم تا بعد از این سه هفته بتوانید هر سایتی با هر ظاهری پیاده کنید.",
 	},
     {
         id: 2,
-		img: ,
 		header: "JavaScript",
 		description:
 			"در دو ماه بعدی به جاوااسکریپت میپردازیم تا بتوانیم صفخاتی پویا و داینامیک را ایجاد کنیم.",
 	},
     {
         id: 3,
-		img: ,
 		header: "Git,Github",
 		description:
 			"گیت و گیت هاب را فراموش نکنیم ، چون بری کار تیمی و پروژه ضروری است. به مدت یک هفته گیت و گیت هاب را یاد خواهیم گرفت.",
 	},
     {
         id: 4,
-		img: ,
 		header: "React",
 		description:
 			"در دو ماه بعدی به سراغ ریکت میرویم که این روزها در اکثر سایت ها استفاده میشود.",
 	},
     {
         id: 5,
-		img: ,
 		header: "Next",
 		description:
 			" دوماه پایانی هم به نکست اختصاص داده شده است تا به صورت کامل برای کا در پروژه های واقعی آماده شوید.",

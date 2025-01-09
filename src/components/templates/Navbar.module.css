@@ -5,11 +5,11 @@
     position: sticky;
     top: 0;
     background-color: #fff;
+	z-index: 3;
 }
 .container ul {
 	display: flex;
     align-items: center;
-    justify-content: right;
     text-wrap: nowrap;
 	padding: 0 30px ;
     overflow-x: scroll;
@@ -25,6 +25,7 @@
 	line-height: 25px;
 	text-align: right;
 	color: #282828;
+	box-sizing: border-box;
 	cursor: pointer;
     /* padding: 0 20px; */
 }

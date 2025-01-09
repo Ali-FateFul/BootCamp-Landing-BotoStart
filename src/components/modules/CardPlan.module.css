@@ -1,0 +1,56 @@
+.container {
+	font-family: Yekan;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 75px;
+}
+.subContainer {
+	width: 150px;
+	height: 87px;
+	margin-left: 10px;
+}
+.subContainer h3 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+.subContainer p {
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 15px;
+	color: #282828e5;
+}
+.image {
+    display: block;
+    z-index:2;
+}
+.container img {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+    position: inherit;
+	z-index: 1 !important;
+}
+.HTML {
+	color: #e26715;
+}
+.JavaScript {
+	color: #e7c407;
+}
+.Git {
+	color: #e23c16;
+}
+.React {
+	color: #167cce;
+}
+.Next {
+	color: #282828;
+}
+.odd {
+	margin-left: 60px;
+}
+.even {
+	margin-right: 60px;
+}

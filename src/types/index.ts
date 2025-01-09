@@ -7,7 +7,8 @@ export interface IFeatures {
 }
 
 export type TCard = {
-	id:number;
+	key?: number
+	id?:number;
 	header: string;
 	description: string;
 };

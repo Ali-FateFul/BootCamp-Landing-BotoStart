@@ -1,6 +1,6 @@
 
 .container {
-
+z-index: 3;
 	width: 393px;
 	height: 75px;
 	margin-top: 50px;
