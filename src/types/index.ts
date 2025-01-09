@@ -1,4 +1,3 @@
-
 export interface IFeatures {
 	id: number;
 	header: string;
@@ -22,4 +21,11 @@ export interface IQuestion {
 	id?: number;
 	header: string;
 	description: string;
+}
+
+export interface IMentores {
+	id?: number;
+	header: string;
+	description: string;
+	title: string;
 }

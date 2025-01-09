@@ -1,8 +1,16 @@
 .container {
-    padding-top: 40px;
+	width: 393px;
+	padding-top: 40px;
 }
 .container h2 {
 	font-family: Yekan;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 31px;
+	color: #282828;
+}
+.container h3 {
+	font-family: yekan;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 31px;
