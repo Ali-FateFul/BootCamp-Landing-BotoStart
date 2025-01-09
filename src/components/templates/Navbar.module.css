@@ -1,24 +1,25 @@
 .container {
-    width: 392px;
-    height: 51px;
+	width: 392px;
+	height: 51px;
 	border: dashed rgba(99, 8, 153, 0.2) 1px;
-    position: sticky;
-    top: 0;
-    background-color: #fff;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
 	z-index: 3;
+	margin-top: 70px;
 }
 .container ul {
 	display: flex;
-    align-items: center;
-    text-wrap: nowrap;
-	padding: 0 30px ;
-    overflow-x: scroll;
-    scrollbar-width: none;
-    gap: 70px;
+	align-items: center;
+	text-wrap: nowrap;
+	padding: 0 30px;
+	overflow-x: scroll;
+	scrollbar-width: none;
+	gap: 70px;
 }
 .container li {
 	font-family: Vazir;
-	width: 55px;
+	/* width: 55px; */
 	list-style: none;
 	font-weight: 400;
 	font-size: 16px;
@@ -27,9 +28,33 @@
 	color: #282828;
 	box-sizing: border-box;
 	cursor: pointer;
-    /* padding: 0 20px; */
 }
 .container li:active {
 	text-decoration: underline;
 	color: #7c3aed;
+}
+
+@media (min-width: 1300px) {
+	.main {
+		display: flex;
+	}
+	.container {
+		width: 912px;
+		height: 60px;
+		border-radius: 21px;
+	}
+	.container li {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.container ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-wrap: nowrap;
+		padding: 0 30px;
+		overflow-x: scroll;
+		scrollbar-width: none;
+		gap: 70px;
+	}
 }

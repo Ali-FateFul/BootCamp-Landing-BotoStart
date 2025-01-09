@@ -2,7 +2,7 @@ html,
 body {
 	overflow-x: hidden;
 	border-radius: 50px;
-	background-color: blue;
+	background-color: rgb(237, 237, 237);
 }
 * {
 	box-sizing: border-box;
