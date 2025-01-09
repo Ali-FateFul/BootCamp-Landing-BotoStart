@@ -8,14 +8,16 @@ function Plan() {
 			<h2>
 				برنامه کلی <span> بوت کمپ </span> در یک نگاه
 			</h2>
-			{planData.map((item) => (
-				<CardPlan
-					key={item.id}
-					id={item.id}
-					header={item.header}
-					description={item.description}
-				/>
-			))}
+			<div className={styles.subContainer}>
+				{planData.map((item) => (
+					<CardPlan
+						key={item.id}
+						id={item.id}
+						header={item.header}
+						description={item.description}
+					/>
+				))}
+			</div>
 			<div className={styles.lineContainer}>
 				<img
 					src='./images/Line.png'

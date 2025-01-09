@@ -23,15 +23,13 @@
 	color: #282828e5;
 }
 .image {
-    display: block;
-    z-index:2;
+	display: block;
+	z-index: 2;
 }
 .container img {
 	width: 60px;
 	height: 60px;
 	margin-top: 30px;
-    position: inherit;
-	z-index: 1 !important;
 }
 .HTML {
 	color: #e26715;
@@ -53,4 +51,39 @@
 }
 .even {
 	margin-right: 60px;
+}
+
+@media (min-width: 1300px) {
+	.container {
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-top: 40px !important;
+	}
+	.image {
+		width: 64px;
+		height: 64px;
+		margin-top: 0px;
+		z-index: 2;
+		margin-bottom: 40px;
+	}
+	.odd {
+		margin-top: 150px !important;
+		margin-left: -20px;
+	}
+	.even {
+		margin-right: -20px;
+	}
+	.subContainer {
+		width: 205px;
+		height: 108px;
+		margin-left: 0px;
+	}
+	.subContainer h3 {
+		margin-bottom: -5px;
+	}
 }
