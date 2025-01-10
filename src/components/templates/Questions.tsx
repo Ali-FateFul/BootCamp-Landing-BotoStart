@@ -19,6 +19,7 @@ export default function Questions() {
 					/>
 				))}
 			</div>
+			<img src='./images/program.png' className={styles.questimg}/>
 		</div>
 	);
 }

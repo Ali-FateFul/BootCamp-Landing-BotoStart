@@ -64,3 +64,22 @@
 	line-height: 21px;
 	color: #282828cc;
 }
+
+@media (min-width: 1300px) {
+	.header h3 {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.close h3 {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.header img {
+		width: 24px;
+		height: 24px;
+	}
+	.close img {
+		width: 24px;
+		height: 24px;
+	}
+}

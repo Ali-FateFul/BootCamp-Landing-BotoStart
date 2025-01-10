@@ -1,8 +1,8 @@
 .container {
 	width: 393px;
 	margin: 80px 0;
-    box-sizing: border-box;
-    padding: 20px;
+	box-sizing: border-box;
+	padding: 20px;
 }
 .header {
 	display: flex;
@@ -13,9 +13,34 @@
 	font-size: 20px;
 	line-height: 31px;
 	color: #282828;
-    margin: 40px 45px 20px 0;
+	margin: 40px 45px 20px 0;
 }
 .header img {
 	width: 80px;
 	height: 80px;
+}
+.questimg {
+	display: none;
+}
+
+@media (min-width: 1300px) {
+	.container {
+		margin-left: 550px;
+	}
+	.header img {
+		width: 224px;
+		height: 224px;
+		position: absolute;
+		left: 1400px;
+	}
+	.header h2 {
+		font-size: 32px;
+		line-height: 50px;
+	}
+	.questimg {
+		display: block;
+		position: absolute;
+		left: 300px;
+		top: 5500px
+	}
 }

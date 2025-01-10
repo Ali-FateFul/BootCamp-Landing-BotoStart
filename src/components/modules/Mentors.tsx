@@ -5,7 +5,9 @@ import { useEffect, useState } from "react";
 
 export default function Mentors() {
 	const [focus, setFocus] = useState(3);
+	const [wide, setWide] = useState(true);
 
+	const size = window.innerWidth;
 	const rightHandler = () => {
 		if (focus > 1) {
 			setFocus((prev) => prev - 1);
@@ -21,8 +23,14 @@ export default function Mentors() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setFocus((prev) => (prev < mentoresData.length ? prev + 1 : 1));
+			if(size > 393){
+				setWide(false);
+			}else {
+				setWide(true)
+			}
+			console.log(wide);
+			
 		}, 3000);
-
 		return () => clearInterval(interval);
 	}, []);
 
@@ -42,8 +50,10 @@ export default function Mentors() {
 							focus === item.id ? styles.show : ""
 						}`}
 						style={{
-							//@ts-ignore
-							transform: `translateX(${(item.id - focus) * 100}%)`,
+							...(wide
+								? //@ts-ignore
+								  { transform: `translateX(${(item.id - focus) * 100}%)` }
+								: {}),
 						}}>
 						<img
 							src={`./images/${item.title}.png`}

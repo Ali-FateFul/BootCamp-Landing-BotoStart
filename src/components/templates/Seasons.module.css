@@ -6,23 +6,42 @@
 	margin: 70px 0;
 	text-align: right;
 	background-color: #8a6ef8;
-    width: 393px;
-    box-sizing: border-box;
-    padding: 20px;
+	width: 393px;
+	box-sizing: border-box;
+	padding: 20px;
 }
 .header {
 	display: flex;
-    align-items: center;
-    font-family: Vazir;
-    font-size: 18px;
-    line-height: 37px;
-    color: #fff;
+	align-items: center;
+	font-family: Vazir;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 37px;
+	color: #fff;
 }
 .header img {
-    width: 24px;
-    height: 24px;
-    margin: 5px;
+	width: 24px;
+	height: 24px;
+	margin: 5px;
 }
 .items {
-    width: 100%;
+	width: 100%;
+}
+
+@media (min-width: 1300px) {
+	.container {
+		width: 912px;
+		margin-left: 400px;
+		padding: 40px;
+        border-radius: 25px;
+	}
+	.header {
+		font-size: 28px;
+		line-height: 46px;
+	}
+	.header img {
+		width: 48px;
+		height: 52px;
+		margin: 10px;
+	}
 }

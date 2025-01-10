@@ -5,6 +5,7 @@
 	text-align: center;
 	align-items: center;
 	margin-bottom: 75px;
+	z-index: 2;
 }
 .subContainer {
 	width: 150px;
@@ -24,7 +25,6 @@
 }
 .image {
 	display: block;
-	z-index: 2;
 }
 .container img {
 	width: 60px;
@@ -68,7 +68,6 @@
 		width: 64px;
 		height: 64px;
 		margin-top: 0px;
-		z-index: 2;
 		margin-bottom: 40px;
 	}
 	.odd {

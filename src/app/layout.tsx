@@ -1,3 +1,4 @@
+import Footer from "@/components/templates/Footer";
 import type { Metadata } from "next";
 
 
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <Footer />
       </body>
     </html>
   );

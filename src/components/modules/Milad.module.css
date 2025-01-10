@@ -6,12 +6,15 @@
 	text-align: right;
 }
 .subContainer {
+	display: flex;
+	flex-direction: column;
 	color: #282828;
 }
 .subContainer h3 {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 20px;
+	margin-bottom: -10px;
 }
 .subContainer p {
 	font-weight: 300;
@@ -19,8 +22,34 @@
 	line-height: 15px;
 }
 .paragraph {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 35px;
-    text-align: justify;
+	font-weight: 600 !important;
+	font-size: 14px !important;
+	line-height: 35px !important;
+	text-align: justify !important;
+}
+
+@media (min-width: 1300px) {
+	.container {
+		width: 910px;
+		padding: 0;
+		display: flex;
+		gap: 20px;
+	}
+	.subContainer {
+		margin-top: 30px;
+	}
+	.subContainer h3 {
+		font-size: 24px;
+		line-height: 37px;
+		margin-bottom: -15px;
+	}
+	.subContainer p {
+		font-size: 20px;
+		line-height: 31px;
+	}
+	.paragraph {
+		font-size: 17px !important;
+		line-height: 45px !important;
+		text-align: justify !important;
+	}
 }

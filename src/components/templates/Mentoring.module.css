@@ -16,3 +16,17 @@
 	line-height: 31px;
 	color: #282828;
 }
+@media (min-width: 1300px) {
+	.container {
+		width: 912px;
+		margin-left: 400px;
+	}
+	.container h2 {
+		font-size: 28px;
+		line-height: 43px;
+	}
+	.container h3 {
+		font-size: 28px;
+		line-height: 43px;
+	}
+}
