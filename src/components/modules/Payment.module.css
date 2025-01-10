@@ -1,5 +1,5 @@
 .container {
-	z-index: 3;
+	z-index: 10;
 	width: 393px;
 	height: 75px;
 	margin-top: 50px;
@@ -13,7 +13,7 @@
 	background-color: #fff;
 	box-shadow: 1px 0px 4px 0px #00000029;
 	position: sticky;
-	top: calc(100vh - 75px);
+	bottom: 0px;
 }
 .price {
 	display: flex;

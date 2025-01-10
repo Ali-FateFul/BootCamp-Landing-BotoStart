@@ -1,6 +1,6 @@
 html,
 body {
-	overflow-x: hidden;
+	overflow-x: visible;
 	border-radius: 50px;
 	background-color: rgb(237, 237, 237);
 }
